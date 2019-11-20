@@ -1,0 +1,54 @@
+- name: Build_Node_W_1
+  os: windows
+  function: build
+  hostname: Build_Node_W_1
+  ip: 15.83.248.252
+  mac: 27832784292
+  version: 1.0
+  username: Automation
+  password: Shanghai2010
+  domain: sh
+
+- name: Build_Node_W_2
+  os: windows
+  function: build
+  hostname: Build_Node_W_2
+  ip: 15.83.248.207
+  mac: 27832784292
+  version: 1.0
+  username: Automation
+  password: Shanghai2010
+  domain: sh
+
+- name: Build_Node_TP_1
+  os: linux
+  function: build
+  hostname: Build_Node_TP_1
+  ip: 15.83.248.253
+  mac: 27832784292
+  version: 1.0
+  username: automation
+  password: Shanghai2010
+  domain: sh 
+ 
+- name: Deploy_Node_1
+  os: windows
+  function: deploy
+  hostname: Deploy_Node_1
+  ip: 15.83.248.251
+  mac: 5666666
+  version: 1.0
+  username: Administrator
+  password: Shanghai2010
+  domain:
+
+- name: Deploy_Node_2
+  os: windows
+  function: deploy
+  hostname: Deploy_Node_2
+  ip: 15.83.248.204
+  mac: 5666666
+  version: 1.0
+  username: Administrator
+  password: Shanghai2010
+  domain:
